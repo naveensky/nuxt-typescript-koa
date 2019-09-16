@@ -1,6 +1,8 @@
-# vue-ts-2
+# Tempalate for NuxtJS + Koa + Typescript
 
-> My top-notch Nuxt.js project
+A sample template which correctly setups the configuration for the latest NuxtJS front-end with Koa backend and Typescript integration.
+
+The project creates a separate `tsconfig-server.json` for backend server and uses default `tsconfig.json` for the front-end. 
 
 ## Build Setup
 
@@ -18,5 +20,3 @@ $ yarn start
 # generate static project
 $ yarn generate
 ```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
