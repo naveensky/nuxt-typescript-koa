@@ -1,0 +1,29 @@
+{
+  "name": "vue-ts-2",
+  "version": "1.0.0",
+  "description": "My top-notch Nuxt.js project",
+  "author": "Naveen Gupta",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_ENV=development TS_NODE_PROJECT=tsconfig-server.json nodemon  --exec 'ts-node' server/Index.ts --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "^0.1.5",
+    "@nuxtjs/axios": "^5.3.6",
+    "cross-env": "^5.2.0",
+    "koa": "^2.6.2",
+    "nuxt": "^2.0.0",
+    "pino": "^5.13.2",
+    "vue-class-component": "^7.1.0"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "^0.2.6",
+    "nodemon": "^1.18.9",
+    "ts-loader": "^6.1.0",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.6.3"
+  }
+}

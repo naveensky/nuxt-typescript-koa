@@ -1,0 +1,34 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "lib": [
+          "dom",
+          "es2015"
+        ],
+        "esModuleInterop": true,
+        "allowJs": true,
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "strict": true,
+        "noEmit": true,
+        "baseUrl": ".",
+        "paths": {
+            "~/*": [
+                "./*"
+            ],
+            "@/*": [
+                "./*"
+            ]
+        },
+        "types": [
+            "@types/node",
+            "@nuxt/types"
+        ]
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
